@@ -1,0 +1,7 @@
+interface:
+  display_name: "WebRTC Leak Defense"
+  short_description: "检测并修复浏览器 WebRTC 真实 IP 泄漏"
+  default_prompt: "Use $webrtc-leak-defense to audit and fix browser WebRTC IP leaks across desktop and mobile."
+
+policy:
+  allow_implicit_invocation: true
