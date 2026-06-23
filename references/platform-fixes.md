@@ -94,5 +94,5 @@ When multiple browsers leak:
 - The video's practical flow: demonstrate a WebRTC leak, explain STUN/peer-connection exposure, test with IP leak sites, then fix Chrome, Firefox, Safari/macOS, iPhone Shadowrocket, and Android Firefox.
 - The video warns that Chrome extensions must be explicitly enabled and retested; it specifically cautions that Network Limiter-style tools may not be equivalent to fully disabling WebRTC.
 - The video's macOS/iPhone proxy-client fix is `UDP` -> `Disable STUN` in Shadowrocket-style clients.
-- BrowserLeaks documents the common split: Chrome can use WebRTC routing-limiter controls/extensions; Firefox can disable WebRTC with `media.peerconnection.enabled=false`.
-- Chrome Web Store describes WebRTC Network Limiter as limiting private interface IPs, non-default public IPs, and requiring WebRTC traffic to use configured proxy routing.
+- BrowserLeaks documents the common split: Chrome can use WebRTC routing-limiter controls/extensions; Firefox can disable WebRTC with `media.peerconnection.enabled=false`: `https://browserleaks.com/webrtc`
+- Chrome Web Store describes WebRTC Network Limiter as limiting private interface IPs, non-default public IPs, and requiring WebRTC traffic to use configured proxy routing: `https://chromewebstore.google.com/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia`
